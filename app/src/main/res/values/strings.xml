@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">project_pao</string>
+    <string-array name="currency">
+        <item>BATH</item>
+        <item>USD</item>
+    </string-array>
+</resources>

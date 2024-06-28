@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="ภาพรวม"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/add_tran"
+        android:title="เพิ่มรายการ"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/monetization"
+        android:title="ธุรกรรม"
+        android:icon="@drawable/ic_baseline_monetization_on_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/chart"
+        android:title="สรุปรวม"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/account"
+        android:title="โปรไฟล์"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="never"
+        />
+</menu>

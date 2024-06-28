@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_attach_file_24.xml" value="0.1215" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_backup_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_bar_chart_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_insert_link_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_category.xml" value="0.259375" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_changepassword.xml" value="0.259375" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_edit_wallet.xml" value="0.10885917258671124" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_edittransaction.xml" value="0.264" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_editwallet.xml" value="0.2" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_historytransaction.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_overview.xml" value="0.16" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_profile.xml" value="0.264" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_sum.xml" value="0.2" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/activity_transaction.xml" value="0.264" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/category_item_layout.xml" value="0.259375" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/fragment_first.xml" value="0.264" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/layout/transaction_item_layout.xml" value="0.21875" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/menu/bottom_nav.xml" value="0.259375" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/WINDOWS/AndroidStudioProjects/project_pao/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

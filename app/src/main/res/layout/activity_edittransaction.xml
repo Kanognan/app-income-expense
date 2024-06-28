@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".TransactionActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="แก้ไขรายการ"
+                android:textSize="30sp"
+                android:layout_marginLeft="20dp"/>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewdelete"
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="80dp"
+                app:cardBackgroundColor="#6AFFF0C4"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/text_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ลบรายการ"
+                    android:textSize="15sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#F3F3F3"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+                <TextView
+                    android:id="@+id/select"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="รายการ"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    >
+
+                </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#F3F3F3"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วันที่"
+                    android:textSize="20dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/addtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/Account"
+                    android:drawableRight="@drawable/time1"
+                    android:onClick="showDatePickerDialog"
+                    android:src="@drawable/edit"
+                    android:text="วันที่"></androidx.appcompat.widget.AppCompatButton>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#F3F3F3"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="จำนวนเงิน"
+                    android:textSize="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/amount"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="230dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="จำนวนเงิน">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edit_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:textSize="20dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/currency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="บาท" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#F3F3F3"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="บันทึก"
+                    android:textSize="20dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/notes"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edit_notes"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:inputType="text"
+                        android:textSize="20dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#F3F3F3"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cancel"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFEF594E"
+                    android:text="ยกเลิก"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:onClick="back"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#F3F3F3"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="#4CAF50"
+                    android:onClick="Save"
+                    android:text="บันทึก"
+                    android:textAllCaps="true"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

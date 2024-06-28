@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#EBEBEB"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img01"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/pao_img" />
+
+        <TextView
+            android:id="@+id/text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img01"
+            android:layout_centerHorizontal="true"
+            android:text="เป๋าเงิน"
+            android:textColor="#FFC107"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text01"
+            android:paddingLeft="20dp"
+            android:paddingTop="54dp"
+            android:text="สกุลเงิน :"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text01"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:hint="สกุลเงิน">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:inputType="text"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/text03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text02"
+            android:paddingLeft="20dp"
+            android:paddingTop="54dp"
+            android:text="กระเป๋าเงิน :"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text02"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:hint="กรุณากรอกชื่อ">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/walletname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:background="#FFFFFF"
+                android:inputType="text"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="10dp">>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFC107"
+                android:onClick="updatewallet"
+                android:text="ยกเลิก"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            app:cardUseCompatPadding="true"
+            android:layout_marginTop="10dp">>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_save"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#009688"
+                android:onClick="updatewallet"
+                android:text="บันทึก"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>
